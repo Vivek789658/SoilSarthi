@@ -26,7 +26,7 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
             <div className="bg-yellow-400 p-2 rounded-full">
               <Sprout className="w-6 h-6 text-green-800" />
             </div>
-            <span className="text-white text-2xl font-bold">SoilSathi</span>
+            <span className="text-white text-2xl font-bold">SoilSarthi</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-1">
@@ -35,8 +35,8 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
                 key={item.id}
                 onClick={() => onNavigate(item.id)}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${currentPage === item.id
-                    ? 'bg-white text-green-700'
-                    : 'text-white hover:bg-green-600'
+                  ? 'bg-white text-green-700'
+                  : 'text-white hover:bg-green-600'
                   }`}
               >
                 {item.label}
@@ -64,8 +64,8 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
                   setIsMenuOpen(false);
                 }}
                 className={`w-full text-left px-4 py-2 rounded-lg text-sm font-medium transition-all ${currentPage === item.id
-                    ? 'bg-white text-green-700'
-                    : 'text-white hover:bg-green-600'
+                  ? 'bg-white text-green-700'
+                  : 'text-white hover:bg-green-600'
                   }`}
               >
                 {item.label}

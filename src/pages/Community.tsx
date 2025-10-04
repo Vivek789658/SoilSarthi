@@ -9,7 +9,7 @@ export default function Community() {
       avatar: '👨‍🌾',
       village: 'Vellanikkara',
       time: '2 hours ago',
-      content: 'Just completed my first drip irrigation setup! Water usage reduced by 40%. Thanks to the SoilSathi community for all the guidance.',
+      content: 'Just completed my first drip irrigation setup! Water usage reduced by 40%. Thanks to the SoilSarthi community for all the guidance.',
       image: 'https://images.pexels.com/photos/4750274/pexels-photo-4750274.jpeg?auto=compress&cs=tinysrgb&w=800',
       likes: 45,
       comments: 12,
@@ -142,8 +142,8 @@ export default function Community() {
                     <button
                       onClick={() => handleLike(post.id)}
                       className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all ${post.isLiked
-                          ? 'text-red-600 bg-red-50'
-                          : 'text-gray-600 hover:bg-gray-100'
+                        ? 'text-red-600 bg-red-50'
+                        : 'text-gray-600 hover:bg-gray-100'
                         }`}
                     >
                       <Heart className={`w-5 h-5 ${post.isLiked ? 'fill-red-600' : ''}`} />

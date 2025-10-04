@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-green-700 mt-8 pt-6 text-center text-sm text-green-200">
-          <p>&copy; 2025 SoilSathi. All rights reserved. Department of Agriculture, Kerala.</p>
+          <p>&copy; 2025 SoilSarthi. All rights reserved. Department of Agriculture, Kerala.</p>
         </div>
       </div>
     </footer>
